@@ -1,0 +1,103 @@
+.box {
+  margin-top: 60px;
+  margin-bottom: 60px; 
+  padding: 5px;
+  margin: 5px;
+  font-weight: 800;
+  color: lightslategray;
+  background-color: ivory;
+}
+
+.visualization {
+    width: 50%;
+    height:50%
+  }
+
+.title {
+    color:  lightslategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+
+}
+
+p{
+    color:  lightslategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+a{
+    color: lightslategrey;
+    font-size: 12px;
+}
+
+.navbar {
+  max-height: 60px;
+}
+
+.navigationbar {
+  color:white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  height: 20px;
+}
+
+.background {
+  max-height: 50px;
+}
+
+@media (max-width: 600px) {
+  .navbar li {
+    padding: 10px;
+  }
+
+  .post {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .navbar ul {
+    visibility: hidden;
+  }
+
+  #nav-select {
+    visibility: visible;
+  }
+
+  .navigationbar {
+    padding: inherit;
+    font-family: Georgia, 'Times New Roman', Times, serif
+  }
+
+  .title {
+    color: darkblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+
+  }
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+}
